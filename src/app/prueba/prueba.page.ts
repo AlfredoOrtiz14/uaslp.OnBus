@@ -22,7 +22,7 @@ export class PruebaPage implements OnInit {
   radioChecked(event)
   {
     console.log(event.detail.value);
-    this.navCtrl.navigateForward("/home/");
+    this.navCtrl.navigateForward("/home");
   }
 
   
