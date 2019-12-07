@@ -12,24 +12,18 @@ google-map {
 }
 
 .ruta_entrante{
-    
     display: block;
-    padding-bottom: 5px;
-    margin-top: 5px;
-    margin-bottom: 30px;
-
     border-bottom: 1.5px solid grey;
 }
 
 .botonFlotante{
-    padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
     z-index: 1; 
     width:98%; 
-    height:15%; 
+    height:20%; 
     left: 5px;
-    bottom: 5px;
+    bottom: 0;
     opacity: 0.9;
     background-color: white; 
     border-radius: 20px 20px 0px 0px; 
