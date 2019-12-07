@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-prueba',
@@ -15,9 +16,9 @@ export class PruebaPage implements OnInit {
   ngOnInit() {
   }
 
-  radioChecked()
+  radioChecked(data)
   {
-    this.navCtrl.navigateForward('/home');
+    this.navCtrl.navigateForward(['/home',{data:data}]);
   }
 
 }
