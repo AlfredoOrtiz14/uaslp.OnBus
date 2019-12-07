@@ -8,16 +8,21 @@ import { NavController } from '@ionic/angular';
 })
 export class PruebaPage implements OnInit {
 
+  valor = 'Fernando';
+  
   constructor(
-    private navCtrl: NavController
+  private navCtrl: NavController
+  
   ) { }
 
   ngOnInit() {
   }
 
-  radioChecked()
+  radioChecked(event)
   {
-    this.navCtrl.navigateForward('/home');
+    console.log(event.detail.value);
+    this.navCtrl.navigateForward("/home/");
   }
 
+  
 }
