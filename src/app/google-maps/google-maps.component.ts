@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Map, latLng, tileLayer, Layer, marker, icon } from 'leaflet';
 
+
 @Component({
   selector: 'app-google-maps',
   templateUrl: './google-maps.component.html',
