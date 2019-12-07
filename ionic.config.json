@@ -1,0 +1,7 @@
+{
+  "name": "OnBus",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
